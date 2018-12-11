@@ -1,0 +1,120 @@
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body {
+    text-align: center;
+    font-family: sans-serif;
+    margin: 50px 50xp 50px 50px;
+}
+
+.navigation ul {
+    display: inline-block;
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+   
+}
+
+.navigation ul li {
+    float: left;
+    border-right: 1px solid #3d87ff;
+    position: relative;
+    margin: 0px 0 0 0;
+    
+
+}
+
+.navigation ul li a {
+    float: left;
+    display: inline-block;
+    background: #3498db;
+    color : #fff;
+    text-decoration: none;
+    padding: 20px 30px;
+    font-size: 34.4px;
+    text-transform: uppercase;
+}    
+
+.navigation ul li a:hover {
+    background: #1674b3;
+}
+
+.navigation ul li:hover .subMenu {
+    display: block;
+}
+
+.navigation .subMenu {
+    position: absolute;
+    width: 250px;
+    left: 0;
+    top : 60px;
+    display: none;
+
+
+}
+.subMenu li {
+    width: 100%;
+    border-bottom: 1px solid #3d87ff;
+    background: #3d87ff;
+}
+.subMenu li a {
+    width: 100%;
+    text-align: left;
+}
+
+
+.companyInfo {
+    width: auto;
+    height: 80px;
+    background: blue;
+    text-align: center;
+    color: white;
+    font-size: 70px;
+    margin: 10px 10px 10px 10px;
+}
+
+
+.mainContent1 {
+    width: 65%;
+    height: 200px;
+    background: lightblue;
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    float: left;
+    overflow: scroll;
+    margin: 10px 10px 10px 10px;
+}
+
+.mainContent2 {
+    width: 32%;
+    height: 200px;
+    background: lightblue;
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    float: leftright; 
+    overflow: scroll;
+    margin: 10px 10px 10px 10px;
+}
+
+img {
+    float: left;
+    o
+}
+
+.contact {
+    float: clear;
+    width: auto;
+    height: auto;
+    background: gray;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    overflow: auto;
+    padding: 25px;
+    margin: 10px 10px 10px 10px;
+}

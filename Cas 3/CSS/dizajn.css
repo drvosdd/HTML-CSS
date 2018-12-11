@@ -1,0 +1,24 @@
+h1 {background: brown}
+
+.paraf {color: indigo}
+
+#sec {border: 5px solid blue}
+
+input[type="text"] {
+    border: 3px solid white;
+    width: 200px;
+}
+
+body {
+    background-color: gold
+}
+
+textarea {
+    background-color: gray;
+    border: white 5px solid;
+}
+
+input[type="submit"] {
+    background-color: tomato;
+    border: white
+}
